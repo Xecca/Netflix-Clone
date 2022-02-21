@@ -12,7 +12,7 @@ struct TrendingTitleResponse: Codable {
 }
 
 struct Title: Codable {
-    var id: Int
+    let id: Int
     let media_type: String?
     let original_language: String?
     let original_title: String?
