@@ -23,6 +23,7 @@
 		959EE8C427C1625700A1DB02 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE8C327C1625700A1DB02 /* DownloadsViewController.swift */; };
 		959EE8CB27C168C500A1DB02 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE8CA27C168C500A1DB02 /* CollectionViewTableViewCell.swift */; };
 		959EE8CD27C16E5700A1DB02 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE8CC27C16E5700A1DB02 /* HeroHeaderUIView.swift */; };
+		95D1012E27C3F9BF005E66DA /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		959EE8C327C1625700A1DB02 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		959EE8CA27C168C500A1DB02 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		959EE8CC27C16E5700A1DB02 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		A15CD888403AAA85402E37CB /* Pods-Netflix Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.release.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.release.xcconfig"; sourceTree = "<group>"; };
 		EDB37E4DCCAEF29B0D9B234F /* Pods-Netflix Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.debug.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +76,6 @@
 				EDB37E4DCCAEF29B0D9B234F /* Pods-Netflix Clone.debug.xcconfig */,
 				A15CD888403AAA85402E37CB /* Pods-Netflix Clone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,6 +133,7 @@
 				959EE8CA27C168C500A1DB02 /* CollectionViewTableViewCell.swift */,
 				959EE8CC27C16E5700A1DB02 /* HeroHeaderUIView.swift */,
 				9586219A27C2B053006DECA1 /* TitleCollectionViewCell.swift */,
+				95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D1012E27C3F9BF005E66DA /* TitleTableViewCell.swift in Sources */,
 				959EE8C227C1624B00A1DB02 /* SearchViewController.swift in Sources */,
 				9586219B27C2B053006DECA1 /* TitleCollectionViewCell.swift in Sources */,
 				959EE8AD27C161F300A1DB02 /* MainTabBarViewController.swift in Sources */,
