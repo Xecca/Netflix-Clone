@@ -26,6 +26,7 @@
 		95D1012E27C3F9BF005E66DA /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */; };
 		95D1013027C3FD2E005E66DA /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1012F27C3FD2E005E66DA /* TitleViewModel.swift */; };
 		95D1013227C5507C005E66DA /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1013127C5507C005E66DA /* SearchResultsViewController.swift */; };
+		95D1013627C5621A005E66DA /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1013527C5621A005E66DA /* YoutubeSearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		95D1012F27C3FD2E005E66DA /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		95D1013127C5507C005E66DA /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		95D1013527C5621A005E66DA /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		A15CD888403AAA85402E37CB /* Pods-Netflix Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.release.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.release.xcconfig"; sourceTree = "<group>"; };
 		EDB37E4DCCAEF29B0D9B234F /* Pods-Netflix Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.debug.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				9586219427C2A53D006DECA1 /* Title.swift */,
+				95D1013527C5621A005E66DA /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,8 +177,8 @@
 		95D1013327C5509B005E66DA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				959EE8AC27C161F300A1DB02 /* MainTabBarViewController.swift */,
 				959EE8BD27C1622E00A1DB02 /* HomeViewController.swift */,
+				959EE8AC27C161F300A1DB02 /* MainTabBarViewController.swift */,
 				959EE8BF27C1624100A1DB02 /* UpcomingViewController.swift */,
 				959EE8C127C1624B00A1DB02 /* SearchViewController.swift */,
 				959EE8C327C1625700A1DB02 /* DownloadsViewController.swift */,
@@ -316,6 +319,7 @@
 				959EE8A927C161F300A1DB02 /* AppDelegate.swift in Sources */,
 				95D1013227C5507C005E66DA /* SearchResultsViewController.swift in Sources */,
 				9586219727C2A81E006DECA1 /* Extensions.swift in Sources */,
+				95D1013627C5621A005E66DA /* YoutubeSearchResponse.swift in Sources */,
 				959EE8AB27C161F300A1DB02 /* SceneDelegate.swift in Sources */,
 				959EE8C027C1624100A1DB02 /* UpcomingViewController.swift in Sources */,
 				9586219527C2A53D006DECA1 /* Title.swift in Sources */,
