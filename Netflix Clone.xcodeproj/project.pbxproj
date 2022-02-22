@@ -25,6 +25,7 @@
 		959EE8CD27C16E5700A1DB02 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE8CC27C16E5700A1DB02 /* HeroHeaderUIView.swift */; };
 		95D1012E27C3F9BF005E66DA /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */; };
 		95D1013027C3FD2E005E66DA /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1012F27C3FD2E005E66DA /* TitleViewModel.swift */; };
+		95D1013227C5507C005E66DA /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1013127C5507C005E66DA /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		959EE8CC27C16E5700A1DB02 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		95D1012D27C3F9BE005E66DA /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		95D1012F27C3FD2E005E66DA /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		95D1013127C5507C005E66DA /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		A15CD888403AAA85402E37CB /* Pods-Netflix Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.release.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.release.xcconfig"; sourceTree = "<group>"; };
 		EDB37E4DCCAEF29B0D9B234F /* Pods-Netflix Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netflix Clone.debug.xcconfig"; path = "Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +112,6 @@
 				959EE8BC27C161FC00A1DB02 /* Controllers */,
 				959EE8A827C161F300A1DB02 /* AppDelegate.swift */,
 				959EE8AA27C161F300A1DB02 /* SceneDelegate.swift */,
-				959EE8AC27C161F300A1DB02 /* MainTabBarViewController.swift */,
 				959EE8B127C161F500A1DB02 /* Assets.xcassets */,
 				959EE8B327C161F500A1DB02 /* LaunchScreen.storyboard */,
 				959EE8B627C161F500A1DB02 /* Info.plist */,
@@ -121,10 +122,8 @@
 		959EE8BC27C161FC00A1DB02 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				959EE8BD27C1622E00A1DB02 /* HomeViewController.swift */,
-				959EE8BF27C1624100A1DB02 /* UpcomingViewController.swift */,
-				959EE8C127C1624B00A1DB02 /* SearchViewController.swift */,
-				959EE8C327C1625700A1DB02 /* DownloadsViewController.swift */,
+				95D1013427C550F3005E66DA /* General */,
+				95D1013327C5509B005E66DA /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +169,26 @@
 				9586219227C2A1EA006DECA1 /* APICaller.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		95D1013327C5509B005E66DA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				959EE8AC27C161F300A1DB02 /* MainTabBarViewController.swift */,
+				959EE8BD27C1622E00A1DB02 /* HomeViewController.swift */,
+				959EE8BF27C1624100A1DB02 /* UpcomingViewController.swift */,
+				959EE8C127C1624B00A1DB02 /* SearchViewController.swift */,
+				959EE8C327C1625700A1DB02 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		95D1013427C550F3005E66DA /* General */ = {
+			isa = PBXGroup;
+			children = (
+				95D1013127C5507C005E66DA /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +314,7 @@
 				959EE8CD27C16E5700A1DB02 /* HeroHeaderUIView.swift in Sources */,
 				959EE8C427C1625700A1DB02 /* DownloadsViewController.swift in Sources */,
 				959EE8A927C161F300A1DB02 /* AppDelegate.swift in Sources */,
+				95D1013227C5507C005E66DA /* SearchResultsViewController.swift in Sources */,
 				9586219727C2A81E006DECA1 /* Extensions.swift in Sources */,
 				959EE8AB27C161F300A1DB02 /* SceneDelegate.swift in Sources */,
 				959EE8C027C1624100A1DB02 /* UpcomingViewController.swift in Sources */,
